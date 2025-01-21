@@ -1,0 +1,14 @@
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\bin\Debug\net8.0\bonuslinkedlist.exe
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\bin\Debug\net8.0\bonuslinkedlist.deps.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\bin\Debug\net8.0\bonuslinkedlist.runtimeconfig.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\bin\Debug\net8.0\bonuslinkedlist.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\bin\Debug\net8.0\bonuslinkedlist.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.AssemblyInfoInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.AssemblyInfo.cs
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.csproj.CoreCompileInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\refint\bonuslinkedlist.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\bonuslinkedlist.genruntimeconfig.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\bonuslinkedlist\bonuslinkedlist\obj\Debug\net8.0\ref\bonuslinkedlist.dll

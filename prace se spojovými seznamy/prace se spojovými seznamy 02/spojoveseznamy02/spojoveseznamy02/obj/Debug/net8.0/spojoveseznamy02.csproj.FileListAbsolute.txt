@@ -1,0 +1,14 @@
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\bin\Debug\net8.0\spojoveseznamy02.exe
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\bin\Debug\net8.0\spojoveseznamy02.deps.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\bin\Debug\net8.0\spojoveseznamy02.runtimeconfig.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\bin\Debug\net8.0\spojoveseznamy02.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\bin\Debug\net8.0\spojoveseznamy02.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.AssemblyInfoInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.AssemblyInfo.cs
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.csproj.CoreCompileInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\refint\spojoveseznamy02.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\spojoveseznamy02.genruntimeconfig.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\prace se spojovými seznamy\prace se spojovými seznamy 02\spojoveseznamy02\spojoveseznamy02\obj\Debug\net8.0\ref\spojoveseznamy02.dll
