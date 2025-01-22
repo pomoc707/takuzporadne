@@ -4,139 +4,187 @@
     {
         static void Main(string[] args)
         {
-           
-            
-            LinkedList.Rozdeleni_do_cislic();
+
+
+            LinkedList zena = new LinkedList();
+            LinkedList muz = new LinkedList();
+            zena.soucet(muz);
+            zena.rozdil(muz);
+
+
+
         }
-    }
-    class Node
-    {
-        public Node(int value)
+        class Node
         {
-            Value = value;
+            public Node(int value)
+            {
+                Value = value;
+            }
+            public int Value { get; set; }
+
+            public Node Next { get; set; }
+
         }
-        public int Value { get; set; }
-
-        public Node Next { get; set; }
-
-    }
-    class LinkedList
-    {
-        public Node Head { get; set; }
-
-
-        public void Add(int value)
+        class LinkedList
         {
-            if (Head == null)
-                Head = new Node(value);
+            public Node Head { get; set; }
+            public void Add(int value)
+            {
+                if (Head == null)
+                    Head = new Node(value);
 
-            else
-            {
-                Node newNode = new Node(value);
-                newNode.Next = Head;
-                Head = newNode;
-            }
-        }
-        public void Reverse()
-        {
-            Node previous = null;
-            Node current = Head;
-            Node next = null;
-
-            while (current != null)
-            {
-                next = current.Next; // Uložíme si odkaz na další uzel
-                current.Next = previous; // Obrátíme směr odkazu
-                previous = current; // Posuneme ukazatel "previous" na aktuální uzel
-                current = next; // Posuneme ukazatel "current" na další uzel
-            }
-
-            Head = previous;
-        }//idk jestli funguje
-        public int Length()
-        {
-            int count = 0;
-            Node current = Head;
-            while (current != null)
-            {
-                count++;
-                current = current.Next;
-            }
-            return count;
-        }
-        public void vypis()
-        {
-            Node node = Head;
-
-            if (node == null)
-            {
-                Console.WriteLine("bruv nic tam neni");
-                return;
-            }
-            while (node != null)
-            {
-                Console.WriteLine($".[{node.Value}].");
-                node = node.Next;
-            }
-            return;
-        }
-        public void Rozdeleni_do_cislic()
-
-        {
-            Console.WriteLine("zadejte prvni cislo");
-            string nula = Console.ReadLine();
-            Console.WriteLine("druhe cislo");
-            string jedna = Console.ReadLine();
-
-
-            LinkedList zena = new LinkedList();     
-            LinkedList muz = new LinkedList();  
-            foreach(char c in nula) 
-            {
-                int cislice = c;
-                muz.Add(cislice);
-            }
-            
-            foreach(char c in jedna)
-            {
-                int yislice = c;
-                zena.Add(yislice);
-            }
-            
-            ///////
-            LinkedList vysledek = new LinkedList(); 
-            Node kluk = muz.Head;
-            Node holka = zena.Head;
-            int navic = 0 ;
-            int ten_delsi = 0;
-            if (muz.Length() > zena.Length())
-            {
-                 ten_delsi = muz.Length();
-            }
-            if (muz.Length() < zena.Length())
-            {
-                 ten_delsi = zena.Length();
-            }
-            while ( ten_delsi != 0 )
-            {
-                if (kluk.Value + holka.Value + navic <= 10)
-                {
-                    vysledek.Add(kluk.Value + holka.Value + navic - 10);
-                    navic = 1;
-                    Console.WriteLine(vysledek.Head);
-                }
                 else
                 {
-                    vysledek.Add(kluk.Value + holka.Value + navic);
-                    navic = 0;
-                    Console.WriteLine(vysledek.Head);
+                    Node newNode = new Node(value);
+                    newNode.Next = Head;
+                    Head = newNode;
                 }
-                holka= holka.Next;
-                kluk = kluk.Next;
-                ten_delsi --;
             }
-             
+            public void Reverse()
+            {
+                Node previous = null;
+                Node current = Head;
+                Node next = null;
+
+                while (current != null)
+                {
+                    next = current.Next; // Uložíme si odkaz na další uzel
+                    current.Next = previous; // Obrátíme směr odkazu
+                    previous = current; // Posuneme ukazatel "previous" na aktuální uzel
+                    current = next; // Posuneme ukazatel "current" na další uzel
+                }
+
+                Head = previous;
+            }
+            public int Length()
+            {
+                int count = 0;
+                Node current = Head;
+                while (current != null)
+                {
+                    count++;
+                    current = current.Next;
+                }
+                return count;
+            }
+            public void vypis()
+            {
+                Node node = Head;
+
+                if (node == null)
+                {
+                    Console.Write("bruv nic tam neni");
+                    return;
+                }
+                while (node != null)
+                {
+                    Console.Write($"{node.Value}");
+                    node = node.Next;
+                }
+                Console.WriteLine();
+                return;
+            }
+            public void Rozdeleni_do_cislic(LinkedList other)
+            {
+                Console.WriteLine("zadejte prvni cislo");
+                string input = Console.ReadLine();
+                Console.WriteLine("druhe cislo");
+
+                string input01 = Console.ReadLine();
+                string muz01 = new string(input.Where(char.IsDigit).ToArray());
+                string zena01 = new string(input01.Where(char.IsDigit).ToArray());//odstranim cokoli jineho nez cisla
+
+                foreach (char c in muz01)
+                {
+                    int cislice = c - '0'; //vemu jednotive cislo a definuju ho jako cislo 
+                    other.Add(cislice);//pridam cislicka do linkedlistu
+                }
+
+                foreach (char c in zena01)
+                {
+                    int yislice = c - '0';
+                    this.Add(yislice); //pridam cislicka do linkedlistu
+                }
+
+            }
+            public void soucet(LinkedList other)
+            {
+                this.Rozdeleni_do_cislic(other);
+                LinkedList vysledek = new LinkedList();
+                Node kluk = other.Head;
+                Node holka = this.Head;
+                int navic = 0;
+
+                while (kluk != null || holka != null || navic != 0)
+                {
+                    int sum = navic; // zacnu s tim co je mby navic z minula
+
+                    if (kluk != null)
+                    {
+                        sum += kluk.Value;//pridame do sum z current uzlu z jednoho cisla tu cifru na ktery prave sme
+                        kluk = kluk.Next;
+                    }
+
+                    if (holka != null)
+                    {
+                        sum += holka.Value;//pridame do sum z current uzlu z jednoho cisla tu cifru na ktery prave sme
+                        holka = holka.Next;//dem na dalsi uzel
+                    }
+
+                    navic = sum / 10; // videli sum 10 a pracuje tak ze nema zbytek takze to bude budto 0 nebo 1
+                    vysledek.Add(sum % 10); // dava tam posledni cislici sum
+
+
+                }
+                Console.WriteLine();
+                Console.Write($" vysledek rovnice je ");
+                vysledek.vypis();
+
+                
+            }//ten bonus
+            public void rozdil(LinkedList other)
+            {
+                this.Rozdeleni_do_cislic(other);
+                LinkedList vysledek = new LinkedList();
+                Node kluk = other.Head;
+                Node holka = this.Head;
+                int navic = 0;
+
+                while (kluk != null || holka != null || navic != 0)
+                {
+                    int rozdil = navic;
+
+                    if (kluk != null)
+                    {
+                        rozdil += kluk.Value; 
+                        kluk = kluk.Next;
+                    }
+
+                    if (holka != null)
+                    {
+                        rozdil -= holka.Value; 
+                        holka = holka.Next; 
+                    }
+
+                    if (rozdil < 0) 
+                    {
+                        rozdil += 10; //jedine tohle je jinak a to pokud bude zeo rozdil tec cifer vzchazet mensi jak 0 tak musime aby to nebylo minus pricist deset a timpadem pristi kolo odectem jedna
+                        navic = -1; 
+                    }
+                    else
+                    {
+                        navic = 0; 
+                    }
+
+                    vysledek.Add(rozdil); 
+                }
+
+                Console.WriteLine();
+                Console.Write("vysledek rozdilu cisel je ");
+                vysledek.vypis();
+            }//doufam v bodiky navic
         }
+
     }
 }
 

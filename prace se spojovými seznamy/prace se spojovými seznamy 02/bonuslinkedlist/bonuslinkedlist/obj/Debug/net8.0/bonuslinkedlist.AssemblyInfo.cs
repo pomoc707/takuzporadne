@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bonuslinkedlist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55d931e49cb942ebbef0da21c28ae5b812f588ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfa85187d2a31068c6cfc5be3c9cc64507f542ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("bonuslinkedlist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bonuslinkedlist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
