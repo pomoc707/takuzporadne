@@ -1,0 +1,15 @@
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\bin\Debug\net8.0\zasobnik.exe
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\bin\Debug\net8.0\zasobnik.deps.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\bin\Debug\net8.0\zasobnik.runtimeconfig.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\bin\Debug\net8.0\zasobnik.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\bin\Debug\net8.0\zasobnik.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.AssemblyInfoInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.AssemblyInfo.cs
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.csproj.CoreCompileInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.sourcelink.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\refint\zasobnik.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\zasobnik.genruntimeconfig.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\zasobnik\zasobnik\obj\Debug\net8.0\ref\zasobnik.dll
