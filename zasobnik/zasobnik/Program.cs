@@ -6,19 +6,26 @@ namespace zasobnik
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zadejte řetězec závorek:");
-            string vstup = Console.ReadLine();
+            
+            celydohromady01();
+            celydohromady02();
+
+
+        }
+        static void celydohromady01()
+        {
+        Console.WriteLine("Zadejte řetězec závorek:");
+        string vstup = Console.ReadLine();
 
             if (zavorky(vstup))
-            {
-                Console.WriteLine("Správně uzávorkováno.");
-            }
+                    {
+                        Console.WriteLine("Správně uzávorkováno.");
+                    }
             else    
-            {
-                Console.WriteLine("Nesprávně uzávorkováno.");
-            }
+                    {
+                        Console.WriteLine("Nesprávně uzávorkováno.");
+                    }
         }
-
         static bool zavorky(string vstup)
         {
             Stack<char> zasobnik = new Stack<char>();
@@ -57,6 +64,32 @@ namespace zasobnik
             return (oteviraci == '(' && uzaviraci == ')') ||
                    (oteviraci == '[' && uzaviraci == ']') ||
                    (oteviraci == '{' && uzaviraci == '}');
+        }
+        static void celydohromady02()
+        {
+            Console.WriteLine("Zadejte celé kladné číslo:");
+            int cislo = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Možnosti rozkladu:");
+            List<int> aktualniRozklad = new List<int>();
+            NajdiRozklady(cislo, 1, aktualniRozklad);
+        }
+
+        static void NajdiRozklady(int zbyle, int min, List<int> aktualniRozklad)
+        {
+            if (zbyle == 0)
+            {
+                // Pokud je zbytek nula, vypíšeme aktuální rozklad
+                Console.WriteLine(string.Join("+", aktualniRozklad));
+                return;
+            }
+
+            for (int i = min; i <= zbyle; i++)
+            {
+                aktualniRozklad.Add(i); // Přidáme číslo do rozkladu
+                NajdiRozklady(zbyle - i, i, aktualniRozklad); // Rekurzivně pokračujeme
+                aktualniRozklad.RemoveAt(aktualniRozklad.Count - 1); // Odstraníme číslo z rozkladu
+            }
         }
     }
 }

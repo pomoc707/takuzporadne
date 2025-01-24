@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zasobnik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9169d277374d1f18c18bb30dbf6d633b55792fce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+095bce3837e0d196ba11dac9336f7221e5f913d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("zasobnik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zasobnik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
