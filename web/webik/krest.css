@@ -1,0 +1,168 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+
+.logo {
+padding-top:25px;
+display: inline-block;
+grid-column: 1;
+align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    z-index: 15;
+}
+
+.grid-vec {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+header {
+    padding-top: 10px;
+    margin: 0;
+    grid-column: 1/-1;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9837184873949579) 0%, rgba(105,208,235,1) 43%, rgba(0,169,204,1) 100%);
+    background-size: 600% 600%;
+    animation: cloudAnimation 20s ease-in-out infinite;
+}
+header a {
+    align-items: center;
+    text-align: center;
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 16px;
+
+}
+
+
+@keyframes cloudAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    text-align: center;
+
+    
+
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9837184873949579) 0%, rgba(105,208,235,1) 43%, rgba(0,169,204,1) 100%);
+    background-size: 600% 600%;
+    animation: cloudAnimation 20s ease-in-out infinite;
+    grid-column: 1/-1;
+    grid-row: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 40px;
+    max-height: 40px;
+    
+
+}
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    row-gap: 10px;
+    text-align: center;
+
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Navigation links */
+nav li a {
+    padding-top: 10px;
+    padding-inline: 20px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    
+}
+
+/* Top border effect */
+nav li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px; /* Start below the text */
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+}
+
+/* Hover effect - slide the border up */
+nav li a:hover::after {
+    transform: scaleX(1);
+    bottom: 0; /* Move up to the text */
+}
+
+/* Change text color on hover if needed */
+nav li a:hover {
+    color: black;
+
+}
+
+/* nav li a:hover {
+    font-size: 120%;
+    border-top: px solid black;
+    transform: translateY(10%);
+    transition: all 0.3s ease;
+
+} */
+
+.main-grid-container{
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    background-color: aliceblue; 
+    border-radius: 25px;
+}
+.grid-v-gridu2{
+    grid-column: 3;
+    grid-template-columns: 10% 80% 10%;
+}
+.grid-v-gridu1{
+    grid-column: 2;
+    grid-template-columns: 10% 80% 10%;
+
+}
+.grid-v-gridu3{
+    grid-column: 4;
+    grid-template-columns: 10% 80% 10%;
+
+}
