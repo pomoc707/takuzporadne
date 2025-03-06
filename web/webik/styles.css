@@ -1,0 +1,598 @@
+
+
+/*katol*/
+
+.kat-header{
+    padding-top:1%;
+    padding-bottom: 2%;
+}
+/*barvicky pro podwebz*/
+.kat-pozadi{
+
+background: radial-gradient(circle, rgba(203,205,214,1) 1%, rgba(133, 8, 8, 0.719) 92%);
+background-size: 600% 600%;
+animation: cloudAnimation 100s ease-in-out infinite;
+}
+.kat-text{
+    color: black;
+}
+.prip-pozadi{
+    background: radial-gradient(circle, rgba(4,23,105,1) 0%, rgba(7,19,47,1) 0%, rgba(53,75,101,1) 100%);
+    background-size: 600% 600%;
+    animation: cloudAnimation 20s ease-in-out infinite;
+}
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Nastavení pevné výšky navigace */
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    z-index: 1000; /* Navigace nad ostatními prvky */
+    justify-content: center;
+}
+.nav,.logo{
+    flex:  0.9 0.1;
+
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    padding: right 2%; ;
+
+
+}
+.logo{
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+/* animace nav-------------------------------*/
+
+
+nav li {
+    justify-content: center;
+}
+/* Logo */
+.logo img {
+    width: 30px;
+    height: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+
+nav li a {
+    padding-top: 10px;
+    padding-inline: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px; /* Startuje pod textem */
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+}
+
+nav li a:hover::after {
+    transform: scaleX(1);
+    bottom: 0; /* Posune se k textu */
+}
+
+nav li a:hover {
+    color: whitesmoke;
+    font-style: bold;
+}
+/*--------------------------------*/
+/*footer------------------------------*/
+
+/* Header----------------------------------------------- */
+header {
+    margin: 0;
+    grid-column: 1/-1;
+    text-decoration: none;
+    animation: cloudAnimation 10s ease-in-out infinite;
+}
+
+header a {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 1% ;
+}
+
+
+header h1 {
+    padding-top: 0.3%;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    grid-column: 1/-1;
+    text-align: center;
+}
+/*--------------------*/
+.grid-v-gridu1 {
+    grid-column: 2;
+    padding-inline: 25%;
+    padding-top: 10%;
+    text-decoration: none;
+    
+
+}
+
+.grid-v-gridu2 {
+    grid-column: 3;
+    padding-inline: 25%;
+    padding-top: 10%;
+    text-decoration: none;
+}
+
+.grid-v-gridu3 {
+    grid-column: 4;
+    padding-inline: 25%;
+    padding-top: 10%;
+    text-decoration: none;
+}
+
+
+/* Widget obrázku */
+.widgetobraz {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrum obrázku v rámci sloupce */
+    transition: transform 0.3s ease; /* Plynulý přechod při hoveru */
+    text-decoration: none;
+}
+
+/* Text nadpisů */
+.nadpiscirkvy {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+
+/*barvy a animacni veci
+---------------------------------*/
+.vlnickam {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(4,23,105,0.8); /* or your preferred color */
+    text-underline-offset: 6px;
+    text-decoration-thickness:3px ;
+    text-decoration-skip-ink:none ;
+  }
+  .vlnickac {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(97, 5, 9, 0.8); /* or your preferred color */
+    text-underline-offset: 6px;
+    text-decoration-thickness:3px ;
+    text-decoration-skip-ink:none ;
+  }
+  .podtrzeni{
+    text-decoration-line: underline;
+    text-decoration-color: rgba(4,23,105,0.8);
+    text-decoration-thickness:3px ;
+  }
+
+
+
+.pozadimodry {
+    background: radial-gradient(circle, rgba(4,23,105,1) 0%, rgba(7,19,47,1) 0%, rgba(53,75,101,1) 100%);
+    background-size: 600% 600%;
+    animation: cloudAnimation 20s ease-in-out infinite;}
+.pozadibili{
+    
+
+    background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(155,155,155,0.9921218487394958) 100%);       
+     background-size: 600% 600%;
+        animation: cloudAnimation 20s ease-in-out infinite;
+}
+@keyframes cloudAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }}
+@keyframes DiognalcloudAnimation {
+        0% {
+          background-position: 0% 0%;
+        }
+        50% {
+          background-position: 100% 100%;
+        }
+        100% {
+          background-position: 0% 0%;
+        }
+      }
+.column-content {
+    transition: transform 0.3s ease;
+}
+
+.column-content:hover {
+    transform: scale(1.05); /* Zvětší obsah sloupce na 105% při hoveru */
+}
+
+
+
+/* ----------------------------------------     */
+
+/*responzivita---------------------*/
+@media only screen and (max-width: 800px) { /*pokud bude obrazovka menší než 800px na šířku*/
+    .nadpiscirkvy{
+        font-size: calc(1.2vw + 10px);
+        text-align: center;
+    }
+        /* Navigation Grid */
+    
+        nav ul {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 0;
+        }
+    
+        nav li {
+            display: block;
+            width: 100%;
+        }
+    
+        nav li a {
+            font-size: 18px;
+            padding: 12px 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    
+        /* Hide the logo on mobile if needed */
+        .logo {
+            display: none;
+        }
+    
+        /* Ensure header content is centered */
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header h1{
+            font-size: larger;
+        }
+        header a{
+            display: none;
+        }
+        h1,h2{
+                font-size: calc(2vw + 10px);
+        }
+        div p{
+            padding: 0 !important;
+            padding-inline: 0 !important;
+        }
+
+    }
+    
+
+
+
+
+/*gridy-------------------------------------*/
+
+
+.maingrid{
+    grid-template-columns: 15% auto 15%;}
+.grid-vec {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    width: 100%;
+}
+
+
+/*--------------------------------------*/
+
+
+
+body {
+    animation: cloudAnimation 20s ease-in-out infinite;
+    margin: 0;
+    padding-top: 60px; /* Přidáno odsazení podle výšky navigace */
+}
+
+.textik {
+    grid-column: 1/-1;
+    margin: 0;
+    padding-top: 5%;
+    width: 100%;
+}
+
+h2 {
+    grid-column: 1/-1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 5%;
+    color: rgba(7, 19, 47, 1);
+    text-align: left;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 5%;
+    color: rgba(7, 19, 47, 1);
+    text-align: center;}
+
+div p {
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    padding-inline: 15%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    
+}
+.paddinghore{
+    padding-top: 1%;
+}
+.paddinghoree{
+    padding-top: 5%;
+}
+
+.paragrafnad{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 5%;}
+
+    .widget-container {
+        padding-top: 5%;
+        grid-column:1/-1 ;
+        display: grid;
+        grid-template-columns:33% 33% 33%;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin:20px;
+    }
+    
+    .widget {
+        text-align: center;
+        width: 80%;
+        height: 180px;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        background: white;
+        text-align: center;
+        opacity: 0;
+        transform: translateX(-100%); /* Start off-screen on the left */
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    }
+/* When entering, slide in from left */
+.widget.enter {
+    opacity: 1;
+    transform: translateX(0); /* Move to visible area */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* When exiting, slide out to the right */
+.widget.exit {
+    opacity: 0;
+    transform: translateX(100%); /* Move off-screen to the right */
+    transition: transform 0.5s ease-out, opacity 0.3s ease-out;
+}
+.widget-nadpis {
+    grid-column: 1/-1;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+
+}
+
+.widget-nadpis.enter {
+    opacity: 1;
+    transform: translateY(0);
+}
+    .widget h2{
+        font-family: "Poppins",sans-serif;
+        font-style: italic;
+        font-size: large;
+        font-weight: 650;
+        text-align: center;
+    }
+    .widget p {
+        font-family: "Poppins",sans-serif;
+        font-style: italic;
+        font-size: normal;
+        font-weight: 600; 
+        padding: 0;
+    }
+    .button-container{
+        grid-column: 2;
+        text-align: center;
+    }
+    .arrow-button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        background: #07132f;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background 0.5s;
+        margin-top: 1rem; /* Space between widget and button */
+    }
+    .arrow-button:hover{
+        background-color: #2252c2;
+        transform: scale(105%);
+    }
+    
+    /* Přidání responzivity */
+    @media (max-width: 808px) {
+        .widget-container {
+            display: block;
+        }
+        
+        .widget {
+            max-width: 350px;
+            font-size: calc(2vw + 10px);
+            overflow: hidden;
+        }
+        
+        .arrow-button {
+            width: 40px;
+            height: 40px;
+             font-size: calc(2vw + 10px);;
+        }
+    }
+    
+    .header-hlav{
+
+            margin: 0;
+            grid-column: 1/-1;
+            height:25vh ;
+        
+    }
+    .header-hla{
+
+        margin: 0;
+        grid-column: 1/-1;
+        height: 20vh ;
+    
+}
+    .gridnahlav { 
+        grid-column: 1/-1;
+        display: grid;
+        grid-template-columns: 7% 1fr 1fr 7%;
+    }
+    
+    
+    /* Center text inside the widgets */
+    .widget02, .widget03 {
+        grid-column: 2;
+        width: 90%;
+        margin-inline: 5%;
+        height: 250px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        border-radius: 12px;
+    
+        /* Centering the content inside */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .widget03 {
+        grid-column: 3;
+    }
+    
+    /* Styling for text */
+    .denadpis {
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-size: large;
+        font-weight: 650;
+        text-align: center;
+    }
+    
+    div strong {
+        color: #07132f;
+    }
+    
+    .detext {
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-size: normal;
+        font-weight: 650; 
+        padding: 0;
+        color: rgba(4,23,105,1);
+        font-size: large;
+        text-align: center;
+    }
+    .custom-table {
+        grid-column: 3;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+    }
+    
+    /* 2/3 and 1/3 column widths */
+    .custom-table th:first-child, 
+    .custom-table td:first-child {
+        width: 66.66%; /* 2/3 */
+    }
+    
+    .custom-table th:last-child, 
+    .custom-table td:last-child {
+        width: 33.33%; /* 1/3 */
+    }
+    
+    /* Styling */
+    .custom-table th {
+        background: #07132f;
+        color: white;
+        text-align: center;
+    }
+    
+    /* Responsive: Stack columns on small screens */
+    @media (max-width: 800px) {
+        .custom-table th, .custom-table td {
+            display: block;
+            width: 100%;
+        }
+    }
+    
+    
