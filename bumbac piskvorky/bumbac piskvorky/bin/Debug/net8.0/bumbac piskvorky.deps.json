@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "bumbac piskvorky/1.0.0": {
+        "runtime": {
+          "bumbac piskvorky.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bumbac piskvorky/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
