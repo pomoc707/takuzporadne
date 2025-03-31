@@ -1,0 +1,15 @@
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\bin\Debug\net8.0\BST.exe
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\bin\Debug\net8.0\BST.deps.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\bin\Debug\net8.0\BST.runtimeconfig.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\bin\Debug\net8.0\BST.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\bin\Debug\net8.0\BST.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.AssemblyInfoInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.AssemblyInfo.cs
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.csproj.CoreCompileInputs.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.sourcelink.json
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\refint\BST.dll
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.pdb
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\BST.genruntimeconfig.cache
+C:\Skola\skola\programovani\takuzporadne\takuzporadne\BST\BST\obj\Debug\net8.0\ref\BST.dll
