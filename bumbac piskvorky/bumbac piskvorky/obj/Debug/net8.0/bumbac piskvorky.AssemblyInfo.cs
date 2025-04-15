@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bumbac piskvorky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a08b4511a34be00b09dd47242dd252941150be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8483c3b14cb591c477f071f4fb47881b2e04edb")]
 [assembly: System.Reflection.AssemblyProductAttribute("bumbac piskvorky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bumbac piskvorky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
