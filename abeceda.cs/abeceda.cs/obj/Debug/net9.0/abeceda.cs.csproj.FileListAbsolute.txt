@@ -1,0 +1,14 @@
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/bin/Debug/net9.0/abeceda.cs
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/bin/Debug/net9.0/abeceda.cs.deps.json
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/bin/Debug/net9.0/abeceda.cs.runtimeconfig.json
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/bin/Debug/net9.0/abeceda.cs.dll
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/bin/Debug/net9.0/abeceda.cs.pdb
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.AssemblyInfoInputs.cache
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.AssemblyInfo.cs
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.csproj.CoreCompileInputs.cache
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.dll
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/refint/abeceda.cs.dll
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.pdb
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/abeceda.cs.genruntimeconfig.cache
+/home/adam-zikmund/RiderProjects/abeceda.cs/abeceda.cs/obj/Debug/net9.0/ref/abeceda.cs.dll
